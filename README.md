@@ -14,7 +14,21 @@ My interest in AI is practical: finding consequential workflows, understanding t
 - **People leadership:** hiring, training, and leading multidisciplinary teams
 - **Technical fluency:** Python and API prototypes, AI workflow design, evaluation, provenance, and deployment operations
 
-## Featured work
+## Start here (AI work, strongest first)
+
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [MotoMedic](https://github.com/Maneshwar-Kumar/motomedic-ai) | A grounded Q&A system that answers only from a 149-page owner's manual, with a deterministic release gate that fails closed. Evaluated on development, held-out and regression question sets, with the misses reported rather than hidden. | Python, BGE-M3 + BM25 hybrid retrieval, Claude Haiku |
+| [RAGAgent](https://github.com/Maneshwar-Kumar/RAGAgent) | The same problem rebuilt as a hosted agent: page-cited answers, photo input, a check that rejects any cited page that was never retrieved, CI and Cloud Run deployment. | Google ADK, Gemini on Vertex AI, Streamlit |
+| [Voice AI Deployment Lab](https://github.com/Maneshwar-Kumar/voice-ai-deployment-lab) | Taking an enterprise voice-AI use case from discovery to controlled production. [Live demo](https://maneshwar-kumar.github.io/voice-ai-deployment-lab/). | FastAPI, GitHub Pages, CI/CD |
+| [Expert Call Intelligence](https://github.com/Maneshwar-Kumar/expert-call-intelligence) | A Claude Code plugin that turns expert-call transcripts into an evidence ledger with provenance-aware Q&A. | Claude Code, Go |
+| [Source Discipline skill](https://github.com/Maneshwar-Kumar/anti-fab-skill) | A prompt-level guardrail against fabricated quotes and unsourced numbers. | Claude skill |
+
+Earlier prototypes, kept for history: [india-vc-intelligence](https://github.com/Maneshwar-Kumar/india-vc-intelligence) (working), [VC-Brain](https://github.com/Maneshwar-Kumar/VC-Brain) (simulated-data UI sketch), [mospi-watcher](https://github.com/Maneshwar-Kumar/mospi-watcher) (automation scaffold).
+
+**A thread through all of it:** answers must be traceable to a source, and the system should say so when it cannot answer.
+
+## More detail
 
 ### [Voice AI Deployment Lab](https://github.com/Maneshwar-Kumar/voice-ai-deployment-lab)
 
